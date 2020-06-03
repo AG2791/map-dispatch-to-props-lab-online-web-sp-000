@@ -60,4 +60,5 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default RestaurantInput
+export default connect(null, mapDispatchToProps)(RestaurantInput);
+
